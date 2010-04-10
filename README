@@ -1,0 +1,17 @@
+This is the skeleton for the Boy Scouts of America computer merit badge.  Boy Scouts should be able to complete either of the following exercises using this project:
+
+- Use a general purpose programming language to write a simple program application of your choice, subject to approval by your counselor.
+
+- Design a Web page for your troop, patrol, school, or place of worship. You need not post the page to a Web site. However, if you decide to do so, you will first need to get your parent's permission and your counselor's approval, as well as permission from the host site.
+
+Under the project directory, you should find a file called "myapp.rb".  This is the main source file for the application.  In this file, you will declare the paths that you want the web application to respond to.  The root path ("/") has already been defined.  This is usually the "home page" path for a web site.  You can also create other paths by adding other paths this way:
+
+get "/somewhere" do
+  "Hi there!"
+end
+
+This will allow you to visit: http://localhost:9292/somewhere - You should see the words "Hi there!" in your web browser.
+
+You can also add special pages to show HTML (HyperText Markup Language), which is the normal content of web pages on the internet.  These pages are the ones that you can make appear when your web browser visits any paths you have added to your "myapp.rb" file.  Beneath the "project" directory, you will find another directory called "views".  Inside that directory, there is already a file called "index.erb".  This is the special HTML page that is shown in the browser when you visit the "homepage" for this web application.  You can add other files with the ".erb" extension in this same directory for each path you add to "myapp.rb" (like the "/somewhere" path shown above -- for this you would create a file called "somewhere.erb" in the views directory and then add "erb :somewhere" just below where it says "Hi there!" in the above example).  Looking at the "myapp.rb" should provide an example of how to use special views files.
+
+There is also a directory called "public" beneath the "project" directory.  Inside "public" is another directory called "images".  This is a directory where you can place images that you would like to display on your web application.  The "index.erb" file in the "views" directory has an example of how to add a picture to a web page.
