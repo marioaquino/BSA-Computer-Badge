@@ -14,5 +14,4 @@
 # Activities #
 
 * <b>Exercise 2:</b>
-* Post web pages to the Computers Clinic web site
 * Students fill out the merit badge worksheet

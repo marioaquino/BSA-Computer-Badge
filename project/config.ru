@@ -17,7 +17,7 @@ configure :development do
 end
 
 # This is the source file for the application
-require 'myapp'
+require 'program'
 
 # Starts Sinatra, and loads all paths declared in 'myapp'
 run Sinatra::Application

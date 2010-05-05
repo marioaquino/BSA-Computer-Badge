@@ -1,10 +1,9 @@
-require 'rubygems'
-require 'sinatra'
+Sinatra::Application.reset!
 
 get "/" do
   erb :index
 end
 
-post "/submit" do
+get "/submit" do
   "Hello #{params[:first]} #{params[:last]}!"
 end

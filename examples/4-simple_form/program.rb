@@ -1,5 +1,4 @@
-require 'rubygems'
-require 'sinatra'
+Sinatra::Application.reset!
 
 get "/" do
   erb :index

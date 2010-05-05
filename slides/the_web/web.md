@@ -27,4 +27,3 @@
 
 * The address comes after the protocol
 * Addresses are unique (like phone numbers)
-

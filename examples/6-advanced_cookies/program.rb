@@ -1,5 +1,4 @@
-require 'rubygems'
-require 'sinatra'
+Sinatra::Application.reset!
 
 get "/" do
   counter = request.cookies['counter'].to_i || 0

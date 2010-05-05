@@ -10,6 +10,6 @@
 
 !SLIDE bullets
 
-# Example 1 #
+# Let's look at examples... #
 
-## A simple web page ##
+## Starting with: 1-hello_world ##
