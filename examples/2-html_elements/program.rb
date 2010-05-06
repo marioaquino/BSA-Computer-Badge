@@ -1,6 +1,4 @@
-# This call to reset! makes sure this file is reloaded
-# if the web application is running in "development" mode
-Sinatra::Application.reset! if development?
+Sinatra::Application.reset!
 
 # Declare your routes below using get "/" or get "/somepath"
 get '/' do

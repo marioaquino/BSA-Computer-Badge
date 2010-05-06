@@ -3,4 +3,4 @@ set PATH=%RUBY_HOME%\bin;%PATH%
 
 start http://localhost:9292/
 
-rackup -I . ../config.ru
+rackup
